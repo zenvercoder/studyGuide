@@ -1,0 +1,33 @@
+$primary: #006699;
+
+
+// background color for line of code
+//rgb(50, 51, 54)
+//hsl(225, 4%, 20%)
+$med-gray: #323336;
+
+// color of line of code
+//rgb(105, 103, 109)
+//hsl(260, 3%, 42%)
+$light-gray: #69676d;
+
+// color of IDE
+//rgb(44, 43, 44)
+//hsl(300, 1%, 17%)
+$dark-gray: #2c2b2c;
+
+// color of function/variable keywords
+//rgb(166, 100, 58)
+//hsl(23, 48%, 44%)
+$orange: #a6643a;
+
+// color of files
+//rgb(90, 97, 80)
+//hsl(85, 10%, 35%)
+$green: #32610e;
+
+
+
+h2 {
+	color: $primary;
+}

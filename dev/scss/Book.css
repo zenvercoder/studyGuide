@@ -1,0 +1,10 @@
+.Book {
+    height: 100px;
+    width: 100px;
+}
+
+.Book:hover {
+    cursor: pointer;
+    fill: #ace63c;
+}
+
