@@ -13,7 +13,7 @@ export default React.createClass({
             <Header />
             <div className="Info">
                 <h2>Welcome</h2>
-                <div className="fade-in one space-around">I'm currently learning about $scope.</div>
+                <div className="fade-in one space-around">I'm currently learning about scope.</div>
                 <div className="fade-in two space-around">Want to dive deeper with me?</div>
                 <div className="Buttoncontainer fade-in three">
                     <Link to={"/CompilationPhase"} className="btn">Yes!</Link>

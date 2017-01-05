@@ -7,7 +7,7 @@ export default React.createClass({
         render() {
                 return <div className="App">
                     <Header />
-                    ohai the route is owrking!
+                    ohai the route is working!
                     <Footer />
                 </div>
         }
