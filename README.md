@@ -8,31 +8,9 @@
 
 ### Notes
 
+* [React JS / Redux Tutorial](https://www.youtube.com/watch?v=DiLVAXlVYR0)
+
 * [react-router-tutorial](https://github.com/reactjs/react-router-tutorial)
 
-
 ![](http://i.imgur.com/DUiL9yn.png)
-
-# React/Sass/Redux Boilerplate
-
-Boilerplate and guide for a React/Sass/Redux build.
-
-## Getting Started
-
-To get started, first install all the necessary dependencies.
-```
-> npm install
-```
-
-Run an initial webpack build
-```
-> webpack
-```
-
-Start the development server (changes will now update live in browser)
-```
-> npm run start
-```
-
-To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
 
