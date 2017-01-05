@@ -1,24 +1,26 @@
 import React from 'react';
-// import React, {Component} from 'react';
+import { Link } from 'react-router'
 import Header from './Header';
 import Footer from './Footer';
-import Button from './Button';
-import '../components/CRUD.js';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+
 require('../../scss/App.css');
 
-// this is just a function that returns html
-const App = () => (
-    <div className="App">
-        <Header />
-        <div>
-            <UserList />
-            <UserDetails />
-        </div>
-        <Button />
-        <Footer />
-    </div>
-);
 
-export default App;
+export default React.createClass({
+    render() {
+        return (
+        <div className="App">
+            <Header />
+            <div className="Info">
+                <h2>Welcome</h2>
+                <div className="fade-in one space-around">I'm currently learning about $scope.</div>
+                <div className="fade-in two space-around">Want to dive deeper with me?</div>
+                <div className="Buttoncontainer fade-in three">
+                    <Link to={"/CompilationPhase"} className="btn">Yes!</Link>
+                </div>
+            </div>
+            <Footer />
+        </div>
+        )
+    }
+})
