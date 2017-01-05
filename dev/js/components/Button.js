@@ -6,7 +6,7 @@ class Button extends Component {
         // You can use them as regular CSS styles
         return <div>
             <div className="Buttoncontainer">
-                <div className="Button">hover</div>
+                <div className="Button">Begin</div>
             </div>
         </div>
     }

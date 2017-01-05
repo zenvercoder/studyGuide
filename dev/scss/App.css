@@ -1,5 +1,15 @@
 #root {
-  min-height: 100vh;
+  margin: 2px;
+}
+
+body {
+  background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
+  color: #f7f7f7;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  position:relative;
+  overflow-x: hidden;
+  margin: -2px 2px;
 }
 
 .App {
@@ -29,11 +39,17 @@
   to { transform: rotate(360deg); }
 }
 
-body {
-  background: linear-gradient(135deg, rgba(85,239,203,1) 0%,rgba(30,87,153,1) 0%,rgba(85,239,203,1) 0%,rgba(91,202,255,1) 100%);
-  color: #f7f7f7;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  position:relative;
+h2 {
+  color: #006699;
+  /*color: #55EFCB;*/
+  /*color: #39EFD1;*/
+}
+
+h1:hover {
+  /*color: #006699;*/
+  /*color: #55EFCB;*/
+  color: #39EFD1;
+  transition: .3s;
+
 }
 

@@ -6,15 +6,14 @@ import Button from './Button';
 import '../components/CRUD.js';
 import UserList from '../containers/user-list';
 import UserDetails from '../containers/user-detail';
-require('../../scss/style.scss');
+require('../../scss/App.css');
 
 // this is just a function that returns html
 const App = () => (
     <div className="App">
-            <Header />
+        <Header />
         <div>
             <UserList />
-            <hr />
             <UserDetails />
         </div>
         <Button />
