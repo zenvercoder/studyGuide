@@ -5,6 +5,8 @@ import ReactDOM from "react-dom";
 // import {Provider} from 'react-redux';
 import {Router, Route, hashHistory} from 'react-router'
 
+require("./index.html");
+
 
 // this creates the store (the JS object with all your appliactions states/data)
 // why the curly braces? if you just want to use just one function from the module
