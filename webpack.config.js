@@ -30,6 +30,9 @@ module.exports = {
                 query: {
                     presets: ['react', 'es2015']
                 }
+            },
+            {
+                test: /\.svg/, loader: 'svg-url-loader'
             }
         ]
     },

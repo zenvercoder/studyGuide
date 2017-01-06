@@ -1,10 +1,13 @@
-### JavaScript Study Guide
+### Study Buddy
 
+R   
 
 
 ### Thanks 
 
 * [bluehaus](http://codepen.io/bluehaus/) for the [fade-in](http://codepen.io/bluehaus/pen/EfGyi)
+
+* [Chris R](http://codepen.io/chris2907/) for the [Gradient animation - example](http://codepen.io/chris2907/pen/ZboMPW)
 
 ### Notes
 

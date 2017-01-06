@@ -4,25 +4,28 @@
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    width: 30vw;
+    width: 15vw;
     max-width: 1200px;
     margin: 0 auto;
     min-height: 10vh;
 }
 
-.Button {
+.YesButton {
     flex: 1 1 auto;
-    padding: 20px;
-    border: 2px solid #f7f7f7;
-
+    padding: 15px;
+    /*border: 2px solid #f7f7f7;*/
+    border-radius: 8px;
+    margin-top: 5em;
     text-align: center;
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
     transition: .3s;
+    border: 2px solid #006699;
+    color: #006699;
 }
 
-.Button:hover {
+.YesButton:hover {
     cursor: pointer;
     transition: .3s;
     content: '';
@@ -30,8 +33,7 @@
     bottom: 0;
     transform: scale(1.25);
     /*background: #f7f7f7;*/
-    color: rgba(86,232,212,1);
-    border: 2px solid rgba(86,232,212,1);
-
+    color: rgba(86, 232, 212, 1);
+    border: 2px solid rgba(86, 232, 212, 1);
 }
 

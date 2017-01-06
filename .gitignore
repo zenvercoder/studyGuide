@@ -1,4 +1,5 @@
 .idea/
 node_modules/
 .DS_Store
-npm-debug.log.340893481
+npm-debug.log
+scope/

@@ -15,7 +15,7 @@ import {Router, Route, hashHistory} from 'react-router'
 // import createLogger from 'redux-logger';
 // import allReducers from './reducers';
 import App from './components/App';
-import Info from '../../scope/Info';
+import Info from './components/Info';
 import CompilationPhase from './components/CompilationPhase';
 import ExecutionPhase from './components/ExecutionPhase';
 
