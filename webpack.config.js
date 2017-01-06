@@ -1,14 +1,16 @@
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
     devServer: {
         inline: true,
-        contentBase: './src',
+        contentBase: false,
         port: 3000
     },
     devtool: 'cheap-module-eval-source-map',
-    entry: './dev/js/index.js',
+    entry: './dev/app/index.js',
     module: {
         loaders: [
             {
@@ -33,14 +35,27 @@ module.exports = {
             },
             {
                 test: /\.svg/, loader: 'svg-url-loader'
+            },
+            {
+                test: /\.html$/,
+                loader: 'html',
+                query: {
+                    minimize: true
+                }
             }
         ]
     },
     output: {
-        path: 'src',
-        filename: 'js/bundle.min.js'
+        path: 'build',
+        filename: '[name].bundle.js',
+        publicPath: '/'
     },
     plugins: [
-        new webpack.optimize.OccurrenceOrderPlugin()
+        new webpack.optimize.OccurrenceOrderPlugin(),
+        new HtmlWebpackPlugin(
+            {
+                template: './dev/app/index.html'
+            }
+        )
     ]
 };

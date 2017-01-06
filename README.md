@@ -1,6 +1,6 @@
 ### Study Buddy
 
-R   
+[Link](https://studybuddy-93453.firebaseapp.com) to live site
 
 
 ### Thanks 
@@ -14,6 +14,10 @@ R
 * [React JS / Redux Tutorial](https://www.youtube.com/watch?v=DiLVAXlVYR0)
 
 * [react-router-tutorial](https://github.com/reactjs/react-router-tutorial)
+
+* [webpack html loader](https://github.com/webpack/html-loader)
+
+* [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin)
 
 ![](http://i.imgur.com/DUiL9yn.png)
 
